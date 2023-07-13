@@ -4,20 +4,19 @@
 // либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться 
 // коллекциями, лучше обойтись исключительно массивами.
 
-// string [] ArrWithLessThen3Symbols(string [] arr1, string [] arr2)
-// {
-//     for (int i = 0; i < arr2.Length + 1; i++)
-//     {
-//         for (int j = 0;  j < arr1.Length + 1; j++)
-//         {
-//             if (arr1[j].Length <= 3)
-//             {
-//                 arr2[i] = arr1[j];
-//             }
-//         }     
-//     }
-//     return arr2;
-// }
+string [] ArrWithLessThen3Symbols(string [] arr1, string [] arr2)
+{
+    int i = 0;
+    for (int j = 0;  j < arr1.Length; j++)
+        {
+            if (arr1[j].Length <= 3)
+            {
+                arr2[i] = arr1[j]; 
+                i++;
+            }
+        }     
+    return arr2;
+}
 
 
 Console.Write("Введите количество элементов массива: ");
@@ -34,8 +33,8 @@ for (int n = 0; n < size; n++)
         count++;
     }
 }
-Console.Write($"{count}");
+Console.WriteLine($"Таких строк: {count}");
 string [] resultArr = new string[count];
-// Console.WriteLine("Массив из строк, длина которых меньше или равна 3:");
-// resultArr = ArrWithLessThen3Symbols(arr, resultArr);
-// Console.WriteLine(string.Join(", ", resultArr));
+Console.WriteLine("Массив из строк, длина которых меньше или равна 3:");
+resultArr = ArrWithLessThen3Symbols(arr, resultArr);
+Console.WriteLine(string.Join(", ", resultArr));
