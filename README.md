@@ -6,7 +6,8 @@
 
 ## Шаг 1. Составить схему
 
-![Схема](схема.png)
+![Схема](scheme.png)
+![ ссылка github] (https://github.com/OlesiaKud/Final_test/blob/main/scheme.png)
 
 ## Шаг 2. Продумать алгоритм
 ### Ввод данных
