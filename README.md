@@ -7,7 +7,7 @@
 ## Шаг 1. Составить схему
 
 ![Схема](scheme.png)
-![ ссылка github] (https://github.com/OlesiaKud/Final_test/blob/main/scheme.png)
+
 
 ## Шаг 2. Продумать алгоритм
 ### Ввод данных
@@ -43,8 +43,8 @@ string [] ArrWithLessThen3Symbols(string [] arr1, string [] arr2)
 [ ] 5. Использовать контроль версий в работе над этим небольшим проектом (не должно быть так, что всё залито одним коммитом, как минимум этапы 2, 3, и 4 должны быть расположены в разных коммитах)
 
 # About this repository
-it was created in order to solve this task.
-Write a program that, from an existing array of strings, forms a new array of strings whose length is less or equal to 3  symbols. An example:
+It was created  to solve a task: 
+write a program that forms a new array (from an existing array) of elements whose length is less or equal to 3  symbols. An example:
 
 [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 
